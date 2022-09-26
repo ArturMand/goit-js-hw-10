@@ -21,7 +21,6 @@ function clearCountryRender() {
   countryList.textContent = '';
   countryInfo.textContent = '';
 }
-
 function checkResolveValue(resolveData) {
   if (resolveData.length > 10) {
     Notify.info('Too many matches found. Please enter a more specific name.');
@@ -33,7 +32,6 @@ function checkResolveValue(resolveData) {
     renderOneCountry(resolveData);
   }
 }
-
 function renderCountryList(countries) {
   const markup = countries
     .map(country => {
