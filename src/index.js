@@ -18,7 +18,6 @@ function renderSearchQuery() {
   clearCountryRender();
   checkSearchQueryValue(searchQueryValue)
 }
-
 function clearCountryRender() {
   countryList.textContent = '';
   countryInfo.textContent = '';
